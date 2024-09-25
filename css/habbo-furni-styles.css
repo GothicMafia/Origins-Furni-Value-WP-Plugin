@@ -1,0 +1,54 @@
+.habbo-furni-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.furni-item {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    width: 280px;
+    padding: 15px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.furni-item h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.furni-item .furni-image img {
+    width: 64px;
+    height: 64px;
+}
+
+.furni-item .furni-details {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.furni-item .furni-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.furni-item .furni-description {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.furni-item .furni-value {
+    background-color: #1b5e20;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #fff;
+}
